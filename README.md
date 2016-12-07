@@ -11,13 +11,28 @@
     * Dans un nouveau document hmtml, réer une interface avec deux zones : 
         - Zone d'édition 
         - Zone de prévisualisation
+#### 
         
     * Dans la zone édition, créer un formulaire contenat deux champs de saisie texte :
         - nom
         - valeur
+#### 
     * Créer également, en dessous des champs, quatre boutons :
         - ecrire
         - lire 
         - effacer
-        - détruire
+        - réinitialiser
+#### 
+    * Utiliser "ecrire" pour stocker :
+        - "nom" et "valeur"
+        
+    * Utiliser "lire" pour afficher dans la zone prévisualisation :
+        - "nom" et "valeur"
+        
+    * Utiliser "effacer" pour lire le "nom" et effacer le coulpe "nom" "valeur" du localstorage.
     
+    
+    * Utiliser "réinitialiser" pour effacer toutes les données dans le localstorage.
+    
+####Pensez à soigner le CSS (UI / UX) en créant une interface ergonomique et agréable à utiliser.
+####Vous pouvez utiliser un framework CSS et même vous faire plaisir avec un peu de Jquery !!!
