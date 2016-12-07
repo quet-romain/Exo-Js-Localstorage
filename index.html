@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Localstorage</title>
+    </head>
+    <style>
+        body {
+            text-align: center;
+            background-color: #3e3f3c;
+            color: white;
+        }
+        div {
+            justify-content: center;
+            display: flex
+        }
+    </style>
+    <body>
+        <form action="éditer.html">
+            <button style="width: 123px; height: 30px">Editor</button>
+        </form>
+        <div>
+            <form action="page2.html">
+                <button>Page 2</button>
+            </form>
+            <button onclick="compter()">Click me</button>
+        </div>
+        <p id="text">0</p>
+    </body>
+    <script>
+        localStorage.setItem("couleur","vert");
+        localStorage.setItem("vert","#00FF00");
+
+        var nombre = 0;
+        function compter() {
+
+            nombre ++;
+            document.getElementById("text").innerHTML = nombre;
+        }
+    </script>
+</html>
