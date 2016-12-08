@@ -8,7 +8,7 @@
     * Sur la même page 1, créer un bouton qui permet d'afficher dans une balise  le nombre de fois que l'on a cliqué dessus. 
       Pour cela sockker et modifier la valeur dans le localstorage à chaque clic.
 ###Exercice 3
-    * Dans un nouveau document hmtml, réer une interface avec deux zones : 
+    * Dans un nouveau document html, créer une interface avec deux zones : 
         - Zone d'édition 
         - Zone de prévisualisation
 #### 
