@@ -1,0 +1,108 @@
+body {
+    margin: 3px;
+    color: #a8a8a8;
+    background-image: url("bg.jpg");
+    background-size: cover;
+}
+main {
+    display: flex;
+    justify-content: space-around;
+}
+fieldset {
+    width: 600px;
+
+    background-color: rgba(175, 175, 175, 0.22);
+    border: 3px solid;
+}
+
+/* Zone d'édition */
+
+.edit {
+
+}
+.edit .in {
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+}
+#nom, #valeur {
+    margin: 21px 2px;
+    width: 249px;
+    height: 30px;
+    font-size: 20px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    border:0;
+    color: white;
+
+}
+textarea {
+    margin-top: -4px;
+    margin-left: 6%;
+    width: 500px;
+    height: 270px;
+    resize: none;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    border:0;
+    color: white;
+}
+.edit div {
+    display: flex;
+    margin-left: 6%;
+}
+.edit button {
+    margin: 3px;
+    width: 247px;
+    height: 30px;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border:0;
+    transition: all 0.5s;
+}
+.rst {
+    width: 500px;
+}
+
+/* Style */
+body:nth-child(2);
+.style {
+    margin-left: 25px;
+    width: 50%;
+}
+#couleur {
+
+}
+
+/* Zone de prévisualisation */
+
+#zonenom {
+    height: 70px;
+
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#textnom {
+    font-size: 20px;
+    width: 50%;
+}
+#textvaleur {
+    font-size: 20px;
+    width: 50%;
+}
+#textmessage {
+    width: 98%;
+    height: 340px;
+
+    margin-top: 0%;
+    margin-left: 0%;
+
+}
+.text {
+    border: white solid;
+    background-color: rgba(255, 233, 201, 0.36);
+    color: #0a0a0a;
+    box-shadow: 1px 1px 12px black;
+}

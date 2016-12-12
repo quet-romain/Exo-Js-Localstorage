@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>éditor</title>
+        <link rel="stylesheet" href="master.css">
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <main>
+     <!--    édition    -->
+            <fieldset class="edit">
+                <legend>Zone d'édition</legend>
+
+                <form class="in">
+                    <input  type="text"  id="nom" placeholder="Nom" value="">
+                    <input  type="text"  id="valeur" placeholder="Objet" value="">
+                </form>
+                <textarea id="message"></textarea>
+
+                <div>
+                    <button onclick="stocker()">écrire</button>
+                    <button onclick="lire()">lire</button>
+                </div>
+                <div>
+                    <button class="rst" onclick="reset()">réinitialiser</button>
+                </div>
+            </fieldset>
+     <!-- prévisualisation -->
+            <fieldset class="preview">
+                <legend>Zone de prévisualisation</legend>
+                <div id="zonenom">
+                    <p class="text" id="textnom"></p>
+                    <p class="text" id="textvaleur"></p>
+                </div>
+                <div  id="zonetext">
+                    <textarea disabled class="text" id="textmessage"></textarea>
+                </div>
+            </fieldset>
+        </main>
+     <!-- Style -->
+        <main>
+            <fieldset class="style">
+                <legend>Style</legend>
+                <input onchange="couleur()" type="color" id="couleur" value="">
+                <label id="nomrange">13</label>
+                <input onchange="range()" type="range"  id="size" min="12" max="50" value="13">
+                <button onclick="alignleft()">left</button>
+                <button onclick="aligncentre()">center</button>
+                <button onclick="alignrignt()">right</button>
+            </fieldset>
+        </main>
+    </body>
+</html>
